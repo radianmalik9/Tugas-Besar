@@ -5,9 +5,6 @@
  */
 package tugasbesar;
 
-import java.sql.ResultSet;
-import java.util.ArrayList;
-
 /**
  *
  * @author user

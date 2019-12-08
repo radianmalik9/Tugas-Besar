@@ -6,25 +6,32 @@
 package tugasbesar;
 
 import java.sql.ResultSet;
-import java.util.ArrayList;
 
 /**
  *
  * @author user
  */
-public class Baju extends Pakaian{
-    private String merk, warna, ukuran, harga;
-    private Bahan bhn;
+public class Kaos extends Kategori{
+    private String id, nama, merk, warna, ukuran, harga, stok;
     
-    Baju(){
+    Kaos(){
         
     } 
-    Baju(String merk, String warna, String ukuran, Bahan bhn, String harga){
+    Kaos(String nama, String merk, String warna, String ukuran, String harga, String stok){
+        this.nama = nama;
         this.merk = merk;
         this.warna = warna;
         this.ukuran = ukuran;
-        this.bhn = bhn;
         this.harga = harga;
+        this.stok = stok;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
     }
 
     public String getMerk() {
@@ -59,38 +66,19 @@ public class Baju extends Pakaian{
         this.harga = harga;
     }
 
-    public Bahan getBhn() {
-        return bhn;
+    public String getStok() {
+        return stok;
     }
 
-    public void setBhn(Bahan bhn) {
-        this.bhn = bhn;
+    public void setStok(String stok) {
+        this.stok = stok;
     }
+
     public void info(){
         System.out.printf("Merk = %s\n", merk);
         System.out.printf("Warna = %s\n", warna);
         System.out.printf("Ukuran = %s\n", ukuran);
-        bhn.info();
         System.out.printf("Harga= %s\n", harga);
-    }
-
-    @Override
-    public void tambahData() {
-        System.out.println("Data Berhasil ditambahkan");
-    }
-
-    @Override
-    public void hapusData() {
-        System.out.println("Data Berhasil dihapus");
-    }
-
-    @Override
-    public void cariData() {
-        System.out.println("Data ditemukan");
-    }
-
-    @Override
-    public void ubahData() {
-        System.out.println("Data telah diubah");
-    }
+        System.out.printf("Stok= %s\n", stok);
+    }    
 }
