@@ -9,7 +9,7 @@ package tugasbesar;
  *
  * @author user
  */
-public class Bahan {
+public class Bahan{
     private String textur;
     
     Bahan(){

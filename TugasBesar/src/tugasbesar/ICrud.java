@@ -5,17 +5,14 @@
  */
 package tugasbesar;
 
+import java.sql.ResultSet;
+
 /**
  *
  * @author user
  */
-public class TugasBesar {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+public interface ICrud {
+    public int insertQueryGetId();
+    public boolean executeQuery() ;
+    public ResultSet selectQuery();
 }

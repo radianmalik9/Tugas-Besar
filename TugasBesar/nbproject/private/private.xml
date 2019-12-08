@@ -3,16 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
-            <file>file:/C:/Users/WINDOWS%2010/Documents/NetBeansProjects/TugasBesar/src/tugasbesar/dataBarang.java</file>
-=======
-            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/TugasBesar.java</file>
+            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/Kategori.java</file>
             <file>file:/D:/ASD/TugasBesar/src/tugasbesar/Bahan.java</file>
-            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/Baju.java</file>
-            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/JInput.java</file>
-            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/JTugas.java</file>
-            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/Pakaian.java</file>
->>>>>>> e71fd9d28b09e4bbde8d586055522fecee863ec1
+            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/JMerek.java</file>
+            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/Loginn.java</file>
+            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/Login.java</file>
+            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/DBHelper.java</file>
+            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/JKategori.java</file>
+            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/Kaos.java</file>
+            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/JBarang.java</file>
+            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/Barang.java</file>
+            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/Merek.java</file>
+            <file>file:/D:/ASD/TugasBesar/src/tugasbesar/ICrud.java</file>
         </group>
     </open-files>
 </project-private>
